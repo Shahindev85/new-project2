@@ -1,0 +1,57 @@
+.banner-area{
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: tomato;
+        border: 0;
+        height: 40px;
+        width: 60px;
+        line-height: 45px;
+        z-index: 22;
+        transition: .3s;
+        cursor: pointer;
+        border-radius: 20px;
+        i {
+            color: $white;
+            font-size: 22px;
+          }
+          &.slick-prev {
+            left: 50px;
+          }
+          &.slick-next {
+            right: 50px;
+          }
+          &:hover {
+            background-color: $black;
+          }
+      }
+    .single-banner {
+        position: relative;
+        height: 100vh;
+        .banner-content {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            h2 {
+                font-size: 60px;
+                text-transform: capitalize;
+                font-weight: 800;
+                margin: 20px 0;
+              }
+            h5 {
+                font-size: 30px;
+                text-transform: capitalize;
+                font-weight: 500;
+              }
+              .banner-btn{
+                  a{
+                     margin: 30px 10px 0 ; 
+                  }
+              }
+          }
+      }
+}

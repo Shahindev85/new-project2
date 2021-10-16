@@ -1,0 +1,32 @@
+.header-area {
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  .logo a {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+  }
+  .menu {
+    ul {
+      li {
+        a {
+          font-size: 18px;
+          margin-left: 20px;
+          text-transform: capitalize;
+          display: block;
+          font-weight: 500;
+          transition: .3s;
+          color: $white;
+          &:hover{
+            color: $primary_color;
+          }
+        }
+      }
+    }
+  }
+
+}
